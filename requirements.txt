@@ -3,5 +3,5 @@ sentence-transformers
 streamlit
 scikit-learn
 matplotlib
-networkxx
+networkx
 umap-learn
