@@ -1,0 +1,184 @@
+{
+    "Table 1": [
+        {
+            "VMD": [
+                {
+                    "parent": "Disease Description",
+                    "children": [
+                        {"parent": "Tumor Characteristics", "children": []},
+                        {"parent": "Location and Behavior", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Patient History",
+                    "children": [
+                        {"parent": "Previous Medical Procedures", "children": []},
+                        {"parent": "Previous Treatments and Recurrence", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Diagnostic Approach",
+                    "children": [
+                        {"parent": "Imaging and Tests", "children": []},
+                        {"parent": "Multidisciplinary Discussions", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Surgical Management",
+                    "children": [
+                        {"parent": "Procedure Description", "children": []},
+                        {"parent": "Materials and Techniques", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Postoperative Outcomes",
+                    "children": [
+                        {"parent": "Immediate Outcomes", "children": []},
+                        {"parent": "Long-term Follow-up", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Ethical Considerations",
+                    "children": [
+                        {"parent": "Informed Consent and Protocol", "children": []},
+                        {"parent": "Financial Disclosure", "children": []}
+                    ]
+                }
+            ]
+        },
+        {
+            "Data": [
+                ["Desmoid-type fibromatosis, aggressive, benign, monoclonal fibroblast proliferation. Size: 18 × 10 × 6.4 cm."],
+                ["Located in the left anterolateral abdominal wall, locally aggressive, high risk of local recurrence."],
+                ["Previous exeresis of abdominal neoplasm, appendectomy, two cesarean sections, and a voluntary pregnancy termination."],
+                ["Initially treated with a small prosthetic mesh; recurrence in 2014 treated with tamoxifen and chemotherapy."],
+                ["MRI used for tumor staging showing significant progression."],
+                ["Case discussed in Multidisciplinary Sarcoma Meeting leading to decision for surgical treatment."],
+                ["Large excision of tumor and affected muscles with reconstruction using a biological matrix (Egis®)."],
+                ["Use of non-cross-linked porcine dermal matrix Egis®, hydrated and sutured to the fascia and abdominal wall muscles."],
+                ["Uncomplicated postoperative course, discharged on the 8th day."],
+                ["No evidence of recurrence or incisional hernia at 12 months, successful integration of the biological matrix with tissues."],
+                ["Informed consent obtained, study protocol approved complying with Helsinki guidelines."],
+                ["No funding for paper preparation, no conflicts of interest declared."]
+            ]
+        }
+    ],
+    "Table 2": [
+            {
+                "VMD": [
+                    {
+                        "parent": "Case Overview",
+                        "children": []
+                    },
+                    {
+                        "parent": "Patient History",
+                        "children": [
+                            {"parent": "Past Surgical History", "children": []},
+                            {"parent": "Other Relevant History", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Tumor Characteristics and Location",
+                        "children": [
+                            {"parent": "Tumor Type", "children": []},
+                            {"parent": "Location", "children": []},
+                            {"parent": "Size and Progression", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Treatment Strategy",
+                        "children": [
+                            {"parent": "Initial Treatments", "children": []},
+                            {"parent": "Surgical Decision", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Surgical Details",
+                        "children": [
+                            {"parent": "Resection Details", "children": []},
+                            {"parent": "Reconstruction", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Outcome and Follow-up",
+                        "children": [
+                            {"parent": "Immediate Postoperative Course", "children": []},
+                            {"parent": "Long-term Follow-up", "children": []}
+                        ]
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    ["Desmoid Fibromatosis of the Abdominal Wall, surgical resection and reconstruction with biological matrix Egis®"],
+                    ["Previous exeresis of a neoplasm in the epigastric region, reinforced with prosthetic mesh"],
+                    ["Appendectomy, two cesarean births, voluntary pregnancy termination"],
+                    ["Desmoid-type fibromatosis"],
+                    ["Left anterolateral abdominal wall"],
+                    ["Initial size not specified; Recurrent size 18 × 10 × 6.4 cm; Aggressive growth noted in MRI"],
+                    ["Tamoxifen therapy for 1 year, followed by 3 months of neoadjuvant chemotherapy"],
+                    ["Decision for surgical resection made after multidisciplinary discussions"],
+                    ["Large excision of the tumor with negative margins; involved the abdominal rectus muscle and parts of oblique and transverse muscles"],
+                    ["Utilized Egis® non-cross-linked porcine dermal matrix, hydrated and sutured to the fascia and abdominal wall muscles"],
+                    ["Uncomplicated, discharged on the 8th postoperative day"],
+                    ["No recurrence of the tumor or incisional hernia at 12 months post-operation; successful integration of the biological matrix"]
+                ]
+            }
+        ],
+        "Table 3": [
+                {
+                    "VMD": [
+                        {
+                            "parent": "Disease Description",
+                            "children": [
+                                {"parent": "Nature and Epidemiology", "children": []},
+                                {"parent": "Risk Factors and Demographics", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Patient Case History",
+                            "children": [
+                                {"parent": "Initial Condition and Treatments", "children": []},
+                                {"parent": "Recurrence and Further Management", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Surgical Procedure",
+                            "children": [
+                                {"parent": "Procedure Description", "children": []},
+                                {"parent": "Technology and Materials Used", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Postoperative Outcome",
+                            "children": [
+                                {"parent": "Immediate Results", "children": []},
+                                {"parent": "Follow-Up Results", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Discussion and Implications",
+                            "children": [
+                                {"parent": "Surgical Choices and Justifications", "children": []},
+                                {"parent": "Long-Term Outlook and Recommendations", "children": []}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Data": [
+                        ["Desmoid tumor (DT) is a benign monoclonal fibroblast proliferation, rare with 2-5 cases per million annually in Europe. It's locally aggressive and recurrent, with high risk of local recurrence despite surgical resection."],
+                        ["Risk factors include surgical interventions, pregnancy, and hormonal treatment. The median diagnosis age is 35, frequently affecting women, particularly on the abdominal wall."],
+                        ["A 37-year-old woman with a history of DT, previously excised and reinforced with mesh. Later treatments included tamoxifen and chemotherapy due to disease progression."],
+                        ["MRI in 2015 showed progression; surgical resection was decided upon by a multidisciplinary team."],
+                        ["The tumor and affected muscles were excised en bloc, followed by reconstruction using a biological matrix (Egis®), secured to the fascia and abdominal wall muscles."],
+                        ["Egis® (Decomed), a not cross-linked porcine dermal matrix, chosen for favorable properties such as resistance to infection and compatibility with patient tissue."],
+                        ["Uncomplicated recovery, patient discharged on the 8th day."],
+                        ["No recurrence or hernia noted at 12 months, MRI confirmed successful integration of the biological matrix with surrounding tissues."],
+                        ["Wide excision necessary for local control; biological matrices preferred over synthetic meshes due to lower risk of complications like adhesion and infection."],
+                        ["Emphasizes the necessity of wide disease-free margins and potential benefits of ADMs over synthetic meshes in abdominal reconstructions."]
+                    ]
+                }
+            ]
+        }
+

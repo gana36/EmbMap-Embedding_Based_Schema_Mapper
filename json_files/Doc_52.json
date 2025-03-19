@@ -1,0 +1,283 @@
+{
+    "Table 1": [
+        {
+            "VMD": [
+                {
+                    "parent": "Disease Overview",
+                    "children": [
+                        {"parent": "Definition", "children": []},
+                        {"parent": "Pathophysiology", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Patient’s Information",
+                    "children": [
+                        {"parent": "Demographics", "children": []},
+                        {"parent": "Medical History", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Symptoms and Diagnosis",
+                    "children": [
+                        {"parent": "Symptoms", "children": []},
+                        {"parent": "Diagnostic Procedures", "children": []},
+                        {"parent": "Diagnostic Findings", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Treatment and Prognosis",
+                    "children": [
+                        {"parent": "Initial Treatment", "children": []},
+                        {"parent": "Surgical Details", "children": []},
+                        {"parent": "Postoperative Treatment", "children": []},
+                        {"parent": "Recurrence and Further Treatment", "children": []},
+                        {"parent": "Outcome", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Additional Information",
+                    "children": [
+                        {"parent": "Clinical Significance", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Research and Trails",
+                    "children": []
+                },
+                {
+                    "parent": "Diagnostic Imaging",
+                    "children": [
+                        {"parent": "Types and Usage", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Surgical Outcomes",
+                    "children": [
+                        {"parent": "Techniques and Efficiency", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Prognostic Indicators",
+                    "children": [
+                        {"parent": "Survival and Predictors", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Ethical Considerations",
+                    "children": [
+                        {"parent": "Consent and Conduct", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Pathological Examination",
+                    "children": [
+                        {"parent": "Findings and Implications", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Follow-up Care",
+                    "children": [
+                        {"parent": "Strategies and Frequencies", "children": []}
+                    ]
+                }
+            ]
+        },
+        {
+            "Data": [
+                ["Advanced gastric cancer with para-aortic lymph node metastasis."],
+                ["Cancer located at the gastric antrum, Borrmann type 3, showing ulceroinfiltrative growth along the lesser curvature. Infiltrative gastric lesions significantly involved perigastric, gastrohepatic ligament, splenic hilum, and retroperitoneal nodes."],
+                ["73-year-old female suffering from epigastric pain."],
+                ["Diagnosed with poorly differentiated adenocarcinoma of the stomach; staged as cT3N3M1 gastric cancer."],
+                ["Epigastric pain; diagnosed via esophagogastroduodenoscopy and biopsy."],
+                ["Utilized esophagogastroduodenoscopy, abdominal three-dimensional computed tomography (CT), and F-18 fluorodeoxyglucose positron emission tomography-CT (FDG-PET-CT)."],
+                ["Ulceroinfiltrative lesion in the stomach with extensive lymph node metastasis including para-aortic nodes."],
+                ["Preoperative systemic chemotherapy with FOLFOX (5-FU, oxaliplatin, leucovorin) regimen followed by radical subtotal gastrectomy and D2 lymph node dissection."],
+                ["Radical subtotal gastrectomy and D2 lymph node dissection performed. Pathological findings post-surgery showed early gastric carcinoma with no lymph node metastasis among the 48 resected lymph nodes."],
+                ["Continued with 4 additional cycles of FOLFOX post-surgery. Discontinued chemotherapy 12 months post-operation due to patient’s age-related concerns."],
+                ["FDG-PET-CT 16 months postoperatively showed recurrence with multiple lymph node metastases and bone metastases. Secondary chemotherapy with FOLFIRI (5-FU, irinotecan, leucovorin) combined with radiotherapy was initiated."],
+                ["Despite aggressive treatment, the patient died 38 months post-operation."],
+                ["This case emphasizes the role of systemic chemotherapy and conversion surgery in managing advanced gastric cancer with significant lymph node metastasis. The effectiveness of FOLFOX in such settings highlights the possibility of its use as a neoadjuvant treatment to facilitate surgical resection and improve clinical outcomes."],
+                ["References and discussions in the case report suggest a growing body of evidence supporting the use of neoadjuvant FOLFOX in advanced gastric cancer, particularly with difficult to manage lymph node metastasis like para-aortic nodes. This aligns with broader oncological research into the optimization of treatment regimens for advanced and metastatic cancers."],
+                ["Advanced imaging technologies including FDG-PET-CT and 3D CT scans were critical in assessing tumor extent and metastatic status, facilitating surgical planning and monitoring response to chemotherapy."],
+                ["The subtotal gastrectomy and D2 lymphadenectomy aimed at complete macroscopic removal of the tumor and affected lymph nodes. The surgical approach was guided by imaging findings and chemotherapy response."],
+                ["Discussion in the document includes survival rates and prognostic indicators such as tumor regression grades and lymph node involvement, which are critical for assessing long-term outcomes."],
+                ["Detailed ethical considerations were observed, including obtaining informed consent for publishing the case report and detailed patient data."],
+                ["Pathological reports post-surgery revealed no metastasis in the resected nodes, indicating effective preoperative chemotherapy. Pathological response was used as a surrogate for treatment efficacy."],
+                ["Regular outpatient follow-ups were planned, involving imaging and clinical assessments to monitor for recurrence. This case highlights the importance of sustained monitoring post-treatment."]
+            ]
+        }
+    ],
+    "Table 2": [
+        {
+            "VMD": [
+                {
+                    "parent": "Disease Overview",
+                    "children": [
+                        {"parent": "Definition", "children": []},
+                        {"parent": "Pathophysiology", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Patient Information",
+                    "children": [
+                        {"parent": "Age", "children": []},
+                        {"parent": "Sex", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Symptoms and Diagnosis",
+                    "children": [
+                        {"parent": "Symptoms", "children": []},
+                        {"parent": "Diagnostic Findings", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Diagnostic Imaging",
+                    "children": [
+                        {"parent": "CT Scan", "children": []},
+                        {"parent": "FDG-PET-CT Scan", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Treatment",
+                    "children": [
+                        {"parent": "Neoadjuvant Chemotherapy", "children": []},
+                        {"parent": "Surgery", "children": []},
+                        {"parent": "Adjuvant Chemotherapy", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Surgical Outcomes",
+                    "children": [
+                        {"parent": "Pathological Examination", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Prognosis and Follow-up Care",
+                    "children": [
+                        {"parent": "Initial Follow-up (12 months post-op)", "children": []},
+                        {"parent": "Recurrence (16 months post-op)", "children": []},
+                        {"parent": "Further Treatment for Recurrence", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Prognostic Indicators",
+                    "children": []
+                },
+                {
+                    "parent": "Ethical Considerations",
+                    "children": []
+                },
+                {
+                    "parent": "Additional Information",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "Data": [
+                ["Advanced gastric cancer with para-aortic lymph node metastasis"],
+                ["Metastasis of gastric cancer to para-aortic lymph nodes, classified as M1 disease"],
+                ["73-years old"],
+                ["Female"],
+                ["Epigastric Pain"],
+                ["- Esophagogastroduodenoscopy showing Borrmann type 3 advanced gastric cancer at the antrum.- Biopsy revealing poorly differentiated adenocarcinoma"],
+                ["Ulcero infiltrative gastric lesion, multiple enlarged conglomerated metastatic lymph nodes in perigastric, gastrohepatic ligament, splenic hilum, retropancreatic, portocaval, and aortocaval regions"],
+                ["Corroborated CT findings of metastatic lymph node involvement."],
+                ["4 cycles of FOLFOX (5-FU, oxaliplatin, leucovorin)"],
+                ["Radical subtotal gastrectomy with D2 lymph node dissection (excluding para-aortic nodes)"],
+                ["4 cycles of FOLFOX post-surgery"],
+                ["- Early gastric carcinoma (pT1a) - Moderately differentiated tubular adenocarcinoma- No lymph node metastasis in 48 resected nodes- No lymphatic, venous or perineural invasion- Tumor regression grade 2 (residual cancer but fibrosis dominant)"],
+                ["PET-CT showing no recurrence/metastasis, previously noted retroperitoneal nodes disappeared"],
+                ["PET-CT showing multiple lymph node metastases (left supraclavicular, paratracheal, para-aortic, retrocaval) and bone metastases"],
+                ["- 8 cycles of FOLFIRI (5-FU, irinotecan, leucovorin) chemotherapy- Radiotherapy to metastatic sites"],
+                ["- Para-aortic lymph node metastasis is associated with very poor prognosis- Pathological response and tumor regression grade after neoadjuvant therapy are important predictors of survival"],
+                ["Written informed consent was obtained from the patient to publish this case report"],
+                ["- Role of para-aortic lymph node dissection for tumors treated with neoadjuvant chemotherapy is unknown- No established regimens or treatment algorithms for stage 4 gastric cancer undergoing conversion surgery"]
+            ]
+        }
+    ],
+    "Table 3": [
+            {
+                "VMD": [
+                    {
+                        "parent": "Disease overview",
+                        "children": [
+                            {"parent": "Definition", "children": []},
+                            {"parent": "Pathophysiology", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Patient Information",
+                        "children": [
+                            {"parent": "Demographics", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Symptoms and Diagnosis",
+                        "children": [
+                            {"parent": "Symptoms", "children": []},
+                            {"parent": "Diagnostic Findings", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Treatment and Prognosis",
+                        "children": [
+                            {"parent": "Chemotherapy", "children": []},
+                            {"parent": "Surgical Details", "children": []},
+                            {"parent": "Outcome", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Additional Information",
+                        "children": [
+                            {"parent": "Follow-up Care", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Diagnostic Imaging",
+                        "children": [
+                            {"parent": "Preoperative", "children": []},
+                            {"parent": "Postoperative", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Surgical Outcomes",
+                        "children": [
+                            {"parent": "Histopathological Findings", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Prognostic Indicators",
+                        "children": [
+                            {"parent": "Pathological Examination", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Ethical Considerations",
+                        "children": [
+                            {"parent": "Consent and Disclosure", "children": []}
+                        ]
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    ["Advanced gastric cancer involving para-aortic lymph node metastasis."],
+                    ["Cancer primarily located at the gastric antrum with para-aortic and other regional lymph node involvements. Classified as cT3N3M1, indicating invasion into the subserosa (T3), with more than 15 regional lymph node metastases (N3), and distant metastasis (M1) due to para-aortic lymph node involvement."],
+                    ["73-year-old female presenting with epigastric pain."],
+                    ["Epigastric pain."],
+                    ["Esophagogastroduodenoscopy revealed Borrmann type 3 advanced gastric cancer. Biopsy showed poorly differentiated adenocarcinoma. CT and FDG-PET-CT scans confirmed multiple metastatic lymph nodes including para-aortic nodes."],
+                    ["Initial systemic chemotherapy with FOLFOX (5-FU, oxaliplatin, leucovorin), followed by additional FOLFOX post-surgery, and later FOLFIRI (5-FU, irinotecan, leucovorin) with radiotherapy upon recurrence."],
+                    ["Radical subtotal gastrectomy with D2 lymph node dissection was performed after response to chemotherapy."],
+                    ["Initial regression of metastatic lymph nodes and no evidence of local recurrence or distant metastasis 12 months post-surgery. Recurrence at 16 months with further metastases. Patient died 38 months post-operation"],
+                    ["Regular outpatient follow-ups with imaging studies. Patient opted to discontinue chemotherapy due to age-related concerns before recurrence was detected."],
+                    ["FDG-PET-CT and CT scans showed multiple enlarged metastatic lymph nodes and an ulcero infiltrative lesion along the lesser curvature of the stomach."],
+                    ["Postoperative FDG-PET-CT scans showed no local recurrence or distant metastasis initially; however, recurrence was evident in later scans with new metastatic sites including supraclavicular and para-aortic lymph nodes, and bone metastases."],
+                    ["Early gastric carcinoma, pT1a, located at the lesser curvature with moderate differentiation. No metastatic lymph nodes among the 48 resected. No lymphatic, venous, or perineural invasion noted."],
+                    ["Pathological response indicated by TRG 2: more residual cancer cells but fibrosis still dominant. Several lymph nodes showed fibrosis but no cancer cells."],
+                    ["Written informed consent was obtained for the case report publication. No conflicts of interest reported."]
+                ]
+            }
+        ]
+    }

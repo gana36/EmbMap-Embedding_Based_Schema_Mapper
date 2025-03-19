@@ -1,0 +1,242 @@
+{
+    "Table 1": [
+        {
+            "VMD": [
+                {
+                    "parent": "Disease Overview",
+                    "children": [
+                        {"parent": "Epidemiology", "children": []},
+                        {"parent": "Characteristics", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Patient Information",
+                    "children": [
+                        {"parent": "Patient Demographics", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Symptoms and Diagnosis",
+                    "children": [
+                        {"parent": "Clinical Presentation", "children": []},
+                        {"parent": "Diagnostic Tests and Results", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Treatment and Follow-up",
+                    "children": [
+                        {"parent": "Treatment Approach", "children": []},
+                        {"parent": "Outcomes and Follow-up", "children": []}
+                    ]
+                },
+                {
+                    "parent": "Additional Information",
+                    "children": [
+                        {"parent": "Clinical Importance", "children": []},
+                        {"parent": "Research and Literature", "children": []}
+                    ]
+                }
+            ]
+        },
+        {
+            "Data": [
+                ["Primary extranodal diffuse large B-cell lymphoma (DLBCL) of the prostate is extremely rare, with prostate cancer making up about 21% of new cancer cases among men. Lymphoma of the prostate, mostly diffuse large B-cell non-Hodgkin subtype, is uncommon."],
+                ["Characterized by prostate enlargement at disease onset, tumor localization to the prostate, and absence of other tissue or lymph node involvement within 1 month of diagnosis."],
+                ["A 54-year-old Caucasian male with a history of benign prostatic hyperplasia, presenting with urinary retention and benign prostatic hyperplasia symptoms."],
+                ["Presented with worsening urinary urgency, weak urinary stream, and inability to void. Physical exam showed a firm and enlarged prostate."],
+                ["Initial tests showed normal hemoglobin, WBC, platelet count, and PSA levels. CT and PET scans revealed prostate enlargement and metabolic activity consistent with malignancy. Diagnosis confirmed by pathologic evaluation of prostate tissue showing large atypical lymphoid cells."],
+                ["Treated with R-CHOP chemotherapy followed by radiation therapy. Post-treatment scans showed complete remission."],
+                ["Patient achieved complete resolution of urinary symptoms and has been disease-free for 2 years with ongoing surveillance."],
+                ["Although rare, primary prostate lymphoma should be considered in the differential diagnosis for prostate gland enlargement with urinary tract symptoms resistant to medical therapy."],
+                ["The literature highlights the rarity of the condition, the importance of including lymphoma in differential diagnoses of prostate conditions, and the effectiveness of current treatments like R-CHOP in managing the disease. The need for close surveillance due to potential for relapse is noted."]
+            ]
+        }
+    ],
+    "Table 2": [
+            {
+                "VMD": [
+                    {
+                        "parent": "Disease Overview",
+                        "children": [
+                            {"parent": "Description of Diffuse Large B-Cell Lymphoma (DLBCL)", "children": []},
+                            {"parent": "Specifics of extranodal involvement in lymphoma", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Patient Information",
+                        "children": [
+                            {"parent": "Age and demographic details", "children": []},
+                            {"parent": "Initial symptoms", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Symptoms",
+                        "children": [
+                            {"parent": "Detailed symptomatology at consultation", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Diagnosis",
+                        "children": [
+                            {"parent": "Methods of identification", "children": []},
+                            {"parent": "Imaging findings", "children": []},
+                            {"parent": "Laboratory and pathology results", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Treatment",
+                        "children": [
+                            {"parent": "Specific chemotherapy regimen", "children": []},
+                            {"parent": "Radiation therapy specifics", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Prognosis",
+                        "children": [
+                            {"parent": "Discussion of survival rates and outcomes based on literature", "children": []},
+                            {"parent": "Prognostic factors and indicators", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Relapse and Surveillance",
+                        "children": [
+                            {"parent": "Information on surveillance post-treatment", "children": []},
+                            {"parent": "Discussion on the likelihood and monitoring of relapse", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Additional Information",
+                        "children": [
+                            {"parent": "Research findings and comparisons with other cases", "children": []},
+                            {"parent": "Ethical considerations and patient consent", "children": []}
+                        ]
+                    },
+                    {
+                        "parent": "Conclusion",
+                        "children": [
+                            {"parent": "Summary of clinical and research implications", "children": []},
+                            {"parent": "Recommendations for future clinical practice", "children": []}
+                        ]
+                    }
+                ]
+            },
+            {
+                "Data": [
+                    ["DLBCL is a subtype of non-Hodgkin lymphoma characterized by large B-cells. The prostate involvement is rare and categorized as primary when the lymphoma is localized to the prostate without initial nodal involvement."],
+                    ["Extranodal lymphomas are those occurring outside of lymph nodes. Primary extranodal involvement is particularly rare in the prostate."],
+                    ["A 54-year-old Caucasian male presented, which is typical as this disease usually occurs in the sixth decade of life."],
+                    ["The patient presented with urinary retention and benign prostatic hyperplasia symptoms."],
+                    ["Symptoms included worsening urinary urgency and a weak urinary stream, leading to medical consultation."],
+                    ["Diagnosis was confirmed via transurethral resection of the prostate (TURP) followed by pathologic and immunohistochemical analysis."],
+                    ["CT and PET scans used showed enlarged prostate and increased metabolic activity in specific areas."],
+                    ["Pathology revealed atypical neoplastic lymphoid cells with specific markers like CD20 and BCL-6 positive."],
+                    ["R-CHOP regimen used, which includes rituximab, cyclophosphamide, doxorubicin, vincristine, and prednisone."],
+                    ["Patient received 36 Gy of fractionated radiation to the prostate and seminal vesicles, in 18 fractions of 2 Gy each."],
+                    ["Previous studies show variable survival rates, but recent treatments like R-CHOP have improved outcomes."],
+                    ["Factors include stage of the disease at diagnosis and response to initial treatment."],
+                    ["Recommended close surveillance within the first five years post-treatment, when relapse is most likely."],
+                    ["Emphasized the need for ongoing monitoring due to potential for metastasis and recurrence."],
+                    ["Compared with other rare cases of primary prostatic lymphoma, highlighting unique aspects and challenges of this case."],
+                    ["Ethical approval and patient consent were obtained for the treatment and case report publication."],
+                    ["The case highlights the importance of considering DLBCL in differential diagnosis of prostate enlargement with typical benign symptoms."],
+                    ["Suggests inclusion of lymphoma in differential diagnosis for similar cases and the potential effectiveness of R-CHOP combined with radiation therapy."]
+                ]
+            }
+        ],
+        "Table 3": [
+                {
+                    "VMD": [
+                        {
+                            "parent": "Disease Description",
+                            "children": [
+                                {"parent": "General Information", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Patient Background",
+                            "children": [
+                                {"parent": "Demographics", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Diagnostic Tools",
+                            "children": [
+                                {"parent": "Laboratory and Imaging", "children": []},
+                                {"parent": "Biopsy", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Pathological Findings",
+                            "children": [
+                                {"parent": "Immunohistochemical Data", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Symptoms at Presentation",
+                            "children": [
+                                {"parent": "Initial Symptoms", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Clinical Assessment",
+                            "children": [
+                                {"parent": "Examination Findings", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Treatment Administered",
+                            "children": [
+                                {"parent": "Chemotherapy and Radiation", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Response to Treatment",
+                            "children": [
+                                {"parent": "Treatment Outcome", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Immediate Treatment Outcomes",
+                            "children": [
+                                {"parent": "Post-Treatment Status", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Long-term Management",
+                            "children": [
+                                {"parent": "Surveillance", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Prognostic Factors",
+                            "children": [
+                                {"parent": "Disease Progression", "children": []}
+                            ]
+                        },
+                        {
+                            "parent": "Recommendations for Surveillance",
+                            "children": [
+                                {"parent": "Monitoring", "children": []}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Data": [
+                        ["Primary extranodal diffuse large B-cell lymphoma, rare, typically manifests in the prostate."],
+                        ["54-year-old Caucasian male, history of benign prostatic hyperplasia."],
+                        ["Lab results: Hemoglobin 14.5, WBC 8.4, Platelet 378, PSA 2.03. Imaging: CT and PET scans."],
+                        ["Biopsy performed during TURP."],
+                        ["CD20, BCL-6 positive; diagnosis of diffuse large B-cell lymphoma confirmed."],
+                        ["Urinary retention, worsening urinary urgency, and weak urinary stream."],
+                        ["Physical exam: Firm and enlarged prostate. Digital rectal exam showed no nodular surface."],
+                        ["R-CHOP chemotherapy regimen followed by 36 Gy of fractionated radiotherapy."],
+                        ["Post-treatment PET scans showed complete remission; patient disease-free for 2 years."],
+                        ["Complete resolution of urinary symptoms, no complications from treatment."],
+                        ["Continuous surveillance in clinic, disease-free for past 2 years."],
+                        ["Prognosis influenced by histological type and disease stage. Good response to chemotherapy."],
+                        ["Regular monitoring with PET scans, particularly in the first 5 years post-treatment."]
+                    ]
+                }
+            ]
+        }
