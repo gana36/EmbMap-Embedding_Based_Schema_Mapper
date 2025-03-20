@@ -261,7 +261,8 @@ def main():
     
     st.sidebar.header("Upload and Configure")
     
-    uploaded_file = st.sidebar.file_uploader("Upload file", type=["json"])
+    # uploaded_file = st.sidebar.file_uploader("Upload file", type=["json"])
+    uploaded_file = st.sidebar.file_uploader("Upload file")
     mapper_type = st.sidebar.radio(
         "Mapper Type", 
         options=["HMD_mapper", "VMD_mapper"],
