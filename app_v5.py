@@ -102,7 +102,7 @@ def create_embeddings(table_data, table_name, model, numerical=0, embedding_meth
             category, subcategory, data = item[0], item[1:-1], item[-1]
             combined_info_from_above = f'{item[0]} -> {item[1:-1]} -> {item[-1]}'
             emb_category = model.encode(category)
-            emb_subcategory = 0
+            emb_subcategory = np.zeros_like(emb_category)
             for index, value in enumerate(subcategory):
                 emb_subcategory += model.encode(value) * (len(subcategory) - (index)) / len(subcategory)
             emb_data = model.encode(data)
