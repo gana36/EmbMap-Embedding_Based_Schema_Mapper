@@ -131,10 +131,10 @@ def create_similarity_network(information_to_be_checked, model,numerical,folder,
     nx.draw(G, pos,with_labels=True,node_color=node_colors,font_size=10,font_weight="bold",edge_color=edge_colors,node_size=200)
     plt.title("Sentence Similarity Network with Color-Coded Mappings")
     try:
-        plt.savefig(f'/home/sa23k/embedding_based_schema_mapping/mappings/{folder}/concatenate_{file_name}/{similarity_threshold*100}_threshold.png')
+        plt.savefig(f'embedding_based_schema_mapping/mappings/{folder}/concatenate_{file_name}/{similarity_threshold*100}_threshold.png')
     except:
-        os.makedirs(f'/home/sa23k/embedding_based_schema_mapping/mappings/{folder}/concatenate_{file_name}',exist_ok=True)
-        plt.savefig(f'/home/sa23k/embedding_based_schema_mapping/mappings/{folder}/concatenate_{file_name}/{similarity_threshold*100}_threshold.png')
+        os.makedirs(f'embedding_based_schema_mapping/mappings/{folder}/concatenate_{file_name}',exist_ok=True)
+        plt.savefig(f'embedding_based_schema_mapping/mappings/{folder}/concatenate_{file_name}/{similarity_threshold*100}_threshold.png')
     plt.show()
     return G, pos
 
@@ -144,7 +144,7 @@ def create_similarity_network(information_to_be_checked, model,numerical,folder,
 #     parser.add_argument('--threshold',required=True,help='Cosine Threshold to filter the mappings')
 #     parser.add_argument("--numerical",required=True,help="Boolean for numerical data, if your data is numerical pass 1, else pass 0")
 #     args=parser.parse_args()
-#     with open(f"/home/sa23k/embedding_based_schema_mapping/json_files/{args.json_file}.json","r") as f:
+#     with open(f"/embedding_based_schema_mapping/json_files/{args.json_file}.json","r") as f:
 #         information=json.load(f)
 #         G, pos = create_similarity_network(jsp.VMD_mapper(information), model,int(args.numerical),args.json_file,similarity_threshold=float(args.threshold))
 
@@ -158,7 +158,7 @@ if __name__ == '__main__':
     parser.add_argument("--table3", action="store_true", help="Include Table 3")
     args = parser.parse_args()
 
-    with open(f"/home/sa23k/embedding_based_schema_mapping/json_files/{args.json_file}.json", "r") as f:
+    with open(f"embedding_based_schema_mapping/json_files/{args.json_file}.json", "r") as f:
         information = json.load(f)
         
     # Filter the information based on table flags
@@ -173,7 +173,7 @@ if __name__ == '__main__':
     if args.table3:
         filtered_information["Table 3"] = information.get("Table 3", {})
         filename+='tab3'
-    # print(filtered_information)
     G, pos = create_similarity_network(jsp.HMD_mapper(filtered_information), model, args.numerical, args.json_file, filename, similarity_threshold=args.threshold)
-
+    """To run the VMD mapper comment the above line and uncomment the below method"""
+    # G, pos = create_similarity_network(jsp.VMD_mapper(filtered_information), model,args.numerical,args.json_file,filename,similarity_threshold=args.threshold)
 
