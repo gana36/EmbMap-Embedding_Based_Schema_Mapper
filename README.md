@@ -23,7 +23,7 @@ EmbMap leverages **HuggingFace Sentence Transformers** with the **'Lajavaness/bi
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/EmbMap-Embedding_Based_Schema_Mapper.git
+git clone https://github.com/gana36/EmbMap-Embedding_Based_Schema_Mapper.git
 cd EmbMap-Embedding_Based_Schema_Mapper
 ```
 
