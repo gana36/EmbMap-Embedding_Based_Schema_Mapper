@@ -85,8 +85,9 @@ Instead of summing weighted/non-weighted vectors, this approach concatenates all
 ```
 ├── code/
 │   ├── network_generator_for_50docs.py
-│   └── json_files/
-│       └── Doc_52.json
+│── json_files/
+│   └── Doc_52.json
+│        
 ```
 
 ## Contributing
