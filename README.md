@@ -15,6 +15,24 @@ EmbMap leverages **HuggingFace Sentence Transformers** with the **'Lajavaness/bi
 
 ## Installation
 
+### Prerequisites
+- Python 3.7+
+- Git
+
+### Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/EmbMap-Embedding_Based_Schema_Mapper.git
+cd EmbMap-Embedding_Based_Schema_Mapper
+```
+
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Navigate to the code directory**
 ```bash
 cd code
 ```
@@ -80,7 +98,7 @@ Instead of summing weighted/non-weighted vectors, this approach concatenates all
 4. **Similarity Calculation**: Compute cosine similarity between final table vectors
 5. **Schema Matching**: Match schemas based on similarity scores above threshold
 
-## File Structure (To run it Local) .
+## File Structure (To run it Local).
 
 ```
 ├── code/
