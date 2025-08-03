@@ -52,6 +52,22 @@ python network_generator_for_50docs.py --json_file=Doc_52 --threshold=0.85 --num
 - `--numerical`: Set to `1` for numerical tables, `0` for textual tables
 - `--table1` and `--table2`: Flags to specify which tables to use from the JSON file
 
+#### Output
+
+All results including visualizations and analysis outputs will be stored in the `mappings/` folder. The output structure follows the pattern:
+```
+mappings/
+└── [json_file_name]/
+    └── [table_pair_name]/
+        ├── [threshold]_threshold.png
+        └── [additional_outputs]
+```
+
+For the example command above, results will be saved in:
+```
+mappings/Doc_52/table_tab2/85.0_threshold.png
+```
+
 ### User Interface
 
 The UI provides options to choose between two embedding creation styles:
@@ -98,26 +114,23 @@ Instead of summing weighted/non-weighted vectors, this approach concatenates all
 4. **Similarity Calculation**: Compute cosine similarity between final table vectors
 5. **Schema Matching**: Match schemas based on similarity scores above threshold
 
-## File Structure (To run it Local).
+## File Structure
 
 ```
 ├── code/
+│   ├── json_parser.py
+│   ├── network_generator.py
 │   ├── network_generator_for_50docs.py
-│── json_files/
+│   └── run_commands.sh
+├── json_files/
 │   └── Doc_52.json
-│        
+└── mappings/
+    └── Doc_52/
+        └── tab1tab2/
+            ├── 80.0_threshold.png
+            └── 85.0_threshold.png
 ```
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues and enhancement requests.
-
-
-
-![image](https://github.com/user-attachments/assets/76efba67-2fce-418c-a87f-6eae406dd70a)
-
-
-
-
-![image](https://github.com/user-attachments/assets/8935c244-ad23-4b83-b7d0-ab49497aecd3)
-
