@@ -80,7 +80,7 @@ Instead of summing weighted/non-weighted vectors, this approach concatenates all
 4. **Similarity Calculation**: Compute cosine similarity between final table vectors
 5. **Schema Matching**: Match schemas based on similarity scores above threshold
 
-## File Structure
+## File Structure (To run it Local) .
 
 ```
 ├── code/
