@@ -131,6 +131,16 @@ Instead of summing weighted/non-weighted vectors, this approach concatenates all
             └── 85.0_threshold.png
 ```
 
+User Interface Output
+
+![image](https://github.com/user-attachments/assets/76efba67-2fce-418c-a87f-6eae406dd70a)
+
+
+
+
+![image](https://github.com/user-attachments/assets/8935c244-ad23-4b83-b7d0-ab49497aecd3)
+
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues and enhancement requests.
