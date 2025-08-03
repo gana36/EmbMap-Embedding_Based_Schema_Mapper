@@ -1,48 +1,98 @@
-# EmbMap---Embedding_Based_Schema_Mapper
+# EmbMap - Embedding-Based Schema Mapper
 
-To run this app locally without UI 
- cd code
- python network_generator_for_50docs.py --json_file=Doc_52 --threshold=0.85 --numerical=0 --table1 --table2
- 
-Since Doc_52 in json_files is textual table flag --numerical=0
-If the table is a numerical table, flag --numerical=1
-The last 2 flags let the code know to use specific tables in json (Doc_52.json)
+An intelligent schema mapping tool that uses advanced embedding techniques to match table schemas based on semantic similarity.
 
-In the UI, you have the option to choose the style of embedding creation. 
-1. Weighted Summation
-2. Concatenation
+## Overview
 
-Uses **HuggingFace sentence Transformers** library and model **'Lajavaness/bilingual-embedding-large'**
-At this time, on the MTEB dashboard, **Lajavanesss** performance exceeds the openAI embedding model (text-embedding-3-s,l) and other models whose weights are far bigger than the bilingual-embedding-large
+EmbMap leverages **HuggingFace Sentence Transformers** with the **'Lajavaness/bilingual-embedding-large'** model to perform schema matching between tables. This model currently outperforms OpenAI's embedding models (text-embedding-3-s, text-embedding-3-l) and other larger models on the MTEB dashboard.
 
-_Weighted Sum Embeddings_
-And once we have the vectors for each level (header, subheader, its subheader, etc, data)
-We add all the vectors to create 1 final vector for the given metadata row or column. 
+## Features
 
-Tables with numerical data: Since the numerical data often comes without context and units, numbers without context and units often mislead the embedding vector. Hence, we utilized variable weight assignments to the tables that contain numerical data to mitigate the misleading caused by numerical data.
+- **Dual Embedding Strategies**: Choose between Weighted Summation and Concatenation approaches
+- **Context-Aware Processing**: Different handling for textual vs numerical data
+- **Hierarchical Weight Assignment**: Smart weighting based on table structure levels
+- **Cosine Similarity Matching**: Accurate schema matching using semantic similarity
 
-Weight to current level in the table = (Total no of levels - current level + 1) / (Total no of levels) 
+## Installation
 
-So, for Root header = (3-1+1)/3 = 1
+```bash
+cd code
+```
 
-Sub root = (3-2+1)/3=2/3=0.6
+## Usage
 
-Data = (3-3+1)/3 = 0.33
+### Command Line Interface
 
-We place high emphasis on root attributes, and weights from sub roots to Data are based on their hierarchy level in the table. Such that Data(numerical) has the least influence on the final embedding.
+```bash
+python network_generator_for_50docs.py --json_file=Doc_52 --threshold=0.85 --numerical=0 --table1 --table2
+```
 
+#### Parameters
 
-_Non-Weight Embeddings_
-Tables with textual data: Uses constant weights for the textual metadata and data since the textual data is beneficial for creating embedding vectors. Hence, we assigned the same weightage irrespective of its position in the table.
+- `--json_file`: Specify the JSON file name (e.g., Doc_52 for Doc_52.json in json_files directory)
+- `--threshold`: Similarity threshold for matching (e.g., 0.85)
+- `--numerical`: Set to `1` for numerical tables, `0` for textual tables
+- `--table1` and `--table2`: Flags to specify which tables to use from the JSON file
 
-**Weighted Summation **
-Once we have these weighted vectors or non-weighted vectors for metadata and data, we add them to create 1 final vector.
+### User Interface
 
-**Concatenation**
-Instead of creating 1 final vector by summing vectors (weighted or non-weighted) along the vector axis for all levels of metadata and data, we concatenated them into 1 long vector.
+The UI provides options to choose between two embedding creation styles:
+1. **Weighted Summation**
+2. **Concatenation**
 
+## Methodology
 
-We calculate cosine similarity between the tables based on the user's approach (concatenation/summation) to perform schema matching. 
+### Embedding Model
+
+- **Model**: `Lajavaness/bilingual-embedding-large`
+- **Library**: HuggingFace Sentence Transformers
+- **Performance**: Superior to OpenAI embedding models on MTEB dashboard
+
+### Embedding Strategies
+
+#### 1. Weighted Summation
+
+**For Numerical Tables:**
+- Applies variable weight assignments to mitigate misleading effects of context-less numerical data
+- Weight formula: `(Total levels - Current level + 1) / Total levels`
+
+Example for a 3-level table:
+- Root header: `(3-1+1)/3 = 1.0`
+- Sub root: `(3-2+1)/3 = 0.67`
+- Data: `(3-3+1)/3 = 0.33`
+
+This hierarchy ensures numerical data has minimal influence while emphasizing structural metadata.
+
+**For Textual Tables:**
+- Uses constant weights across all levels
+- Equal importance given to all textual metadata and data
+- Beneficial since textual data provides meaningful context for embeddings
+
+#### 2. Concatenation
+
+Instead of summing weighted/non-weighted vectors, this approach concatenates all level vectors into one comprehensive vector, preserving all dimensional information.
+
+### Schema Matching Process
+
+1. **Vector Generation**: Create embeddings for each table level (headers, subheaders, data)
+2. **Weight Application**: Apply appropriate weighting strategy based on data type
+3. **Vector Combination**: Use either summation or concatenation approach
+4. **Similarity Calculation**: Compute cosine similarity between final table vectors
+5. **Schema Matching**: Match schemas based on similarity scores above threshold
+
+## File Structure
+
+```
+├── code/
+│   ├── network_generator_for_50docs.py
+│   └── json_files/
+│       └── Doc_52.json
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit issues and enhancement requests.
+
 
 
 ![image](https://github.com/user-attachments/assets/76efba67-2fce-418c-a87f-6eae406dd70a)
